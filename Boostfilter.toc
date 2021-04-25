@@ -1,0 +1,8 @@
+## Interface: 11307
+## Title: Boostfilter
+## Notes: Hides some of the boost messages in chat
+## Author: boo
+## Version: 0.1
+## SavedVariables: BoostfilterIsEnabledBool
+
+Boostfilter.lua
