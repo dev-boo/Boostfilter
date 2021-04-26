@@ -45,7 +45,9 @@ end
 function Boostfilter:Init()
     print("Boostfilter initialized. SpamFilter is "..Boostfilter:IsEnabled())
     print("Type '/boostfilter toggle' or '/bf toggle' to toggle")
-    Boostfilter:RegisterChannels()
+    if Boostfilter.Enabled then
+        Boostfilter:RegisterChannels()
+    end
 end
 
 function Boostfilter:RegisterChannels()
